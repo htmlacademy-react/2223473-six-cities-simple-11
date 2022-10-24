@@ -1,4 +1,5 @@
 import React from 'react';
+import { Header } from '../../components/header/header';
 import { ApartmentCard } from '../../components/cards/cards';
 import { ApartmentCardProps } from '../../components/cards/cards';
 
@@ -55,6 +56,8 @@ type MainProps = {
 export const MainPage: React.FC<MainProps> = ({availablePlaceCount}) => {
   const cardsCities = apartamentList.map((apartmentData, i) => <ApartmentCard {...apartmentData} key={apartmentData.url}/>);
   return (
+    <>
+    <Header/>
     <main className="page__main page__main--index">
       <h1 className="visually-hidden">Cities</h1>
       <div className="tabs">
@@ -123,6 +126,6 @@ export const MainPage: React.FC<MainProps> = ({availablePlaceCount}) => {
         </div>
       </div>
     </main>
+    </>
   );
 };
-export default MainPage;

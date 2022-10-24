@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Вооружён,значит опасен">
-      <change afterPath="$PROJECT_DIR$/project/src/components/cards/cards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" afterDir="false" />
+    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Create main-page &amp; apartmentcards component.">
+      <change afterPath="$PROJECT_DIR$/project/src/components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/app/app.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <updated>1666068682167</updated>
       <workItem from="1666068683822" duration="9044000" />
       <workItem from="1666244902302" duration="216000" />
-      <workItem from="1666245122709" duration="18808000" />
+      <workItem from="1666245122709" duration="21055000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил наставника">
       <created>1666074213283</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666246484747</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create main-page &amp; apartmentcards component.">
+      <created>1666600895528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666600895528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +184,7 @@
     <MESSAGE value="Вооружён, значит опасен" />
     <MESSAGE value="Вооружён,  значит опасен" />
     <MESSAGE value="Вооружён,значит опасен" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вооружён,значит опасен" />
+    <MESSAGE value="Create main-page &amp; apartmentcards component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create main-page &amp; apartmentcards component." />
   </component>
 </project>
