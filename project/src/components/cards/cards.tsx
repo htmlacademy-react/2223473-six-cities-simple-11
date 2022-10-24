@@ -10,15 +10,7 @@ export type ApartmentCardProps = {
   type: string;
 };
 
-export const ApartmentCard:React.FC<ApartmentCardProps> = ({
-  mark,
-  url,
-  imgUrl,
-  price,
-  ratingPercent,
-  description,
-  type,
-}) => (
+export const ApartmentCard = ({mark, url, imgUrl, price, ratingPercent, description, type}: ApartmentCardProps) => (
   <article className="cities__card place-card">
     {mark && <div className="place-card__mark"><span>{mark}</span></div>}
     <div className="cities__image-wrapper place-card__image-wrapper">
