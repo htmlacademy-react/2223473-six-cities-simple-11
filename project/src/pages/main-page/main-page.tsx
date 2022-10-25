@@ -1,55 +1,21 @@
 import React from 'react';
 import { ApartmentCard } from '../../components/cards/cards';
-import { ApartmentCardProps } from '../../components/cards/cards';
 import { Header } from '../../components/header/header';
-const apartamentList: ApartmentCardProps[] = [
-  {
-    mark: 'Premium',
-    url: '#',
-    imgUrl: 'img/apartment-01.jpg',
-    type: 'Apartment',
-    description: 'Beautiful &amp; luxurious apartment at great location',
-    price: 120,
-    ratingPercent: 80,
-  },
-  {
-    url: '#',
-    imgUrl: 'img/apartment-02.jpg',
-    type: 'Private room',
-    description: 'Wood and stone place',
-    price: 80,
-    ratingPercent: 80,
-  },
-  {
-    url: '#',
-    imgUrl: 'img/apartment-03.jpg',
-    type: 'Apartment',
-    description: 'Canal View Prinsengracht',
-    price: 132,
-    ratingPercent: 80,
-  },
-  {
-    mark: 'Premium',
-    url: '#',
-    imgUrl: 'img/apartment-01.jpg',
-    type: 'Apartment',
-    description: 'Nice, cozy, warm big bed apartment',
-    price: 180,
-    ratingPercent: 100,
-  },
-  {
-    url: '#',
-    imgUrl: 'img/apartment-02.jpg',
-    type: 'Private room',
-    description: 'Wood and stone place',
-    price: 80,
-    ratingPercent: 80,
-  },
-];
 
+type ApartmentCardType = {
+  apartmentCardList:{
+    mark?: string;
+    url: string;
+    imgUrl: string;
+    price: number;
+    ratingPercent: number;
+    description: string;
+    type: string;
+  }[];
+};
 
-export function MainPage(props: {apartmentCount: number}): JSX.Element {
-  const apartmentCard = apartamentList.map((apartmentData, i) => <ApartmentCard {...apartmentData} key={apartmentData.url}/>);
+export function MainPage({apartmentCardList}:ApartmentCardType): JSX.Element {
+  const apartmentCard = apartmentCardList.map((apartmentData, i) => <ApartmentCard {...apartmentData} key={apartmentData.url}/>);
   return (
     <>
       <Header/>

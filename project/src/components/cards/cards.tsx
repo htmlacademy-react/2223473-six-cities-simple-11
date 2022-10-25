@@ -1,16 +1,7 @@
 import React from 'react';
+import {ApartmentCardType} from '../../types/apatmentType/apartmentType';
 
-export type ApartmentCardProps = {
-  mark?: string;
-  url: string;
-  imgUrl: string;
-  price: number;
-  ratingPercent: number;
-  description: string;
-  type: string;
-};
-
-export const ApartmentCard = ({mark, url, imgUrl, price, ratingPercent, description, type}: ApartmentCardProps) => (
+export const ApartmentCard = ({mark, url, imgUrl, price, ratingPercent, description, type}: ApartmentCardType) => (
   <article className="cities__card place-card">
     {mark && <div className="place-card__mark"><span>{mark}</span></div>}
     <div className="cities__image-wrapper place-card__image-wrapper">
