@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Начинаем программировать fix main-empty &amp; property-page">
+    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Начинаем программировать fix eslint bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/pages/property-page/property-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/property-page/property-page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,12 @@
         <option name="repository" value="2223473-six-cities-simple-11" />
       </RepoCoordinatesHolder>
     </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8e2f7ce8-eb4a-441b-bdc8-2e64b2f7f218" />
+        <option name="url" value="https://github.com/AleksandrKubik/2223473-six-cities-simple-11.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,7 +114,7 @@
       <workItem from="1666692407794" duration="745000" />
       <workItem from="1666694524905" duration="1738000" />
       <workItem from="1666697893500" duration="31000" />
-      <workItem from="1666697955221" duration="468000" />
+      <workItem from="1666697955221" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил наставника">
       <created>1666074213283</created>
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666689011820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Начинаем программировать fix eslint bug">
+      <created>1666698571712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666698571712</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +200,8 @@
     <MESSAGE value="Вооружён,  значит опасен" />
     <MESSAGE value="Начинаем программировать" />
     <MESSAGE value="Начинаем программировать fix main-empty &amp; property-page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начинаем программировать fix main-empty &amp; property-page" />
+    <MESSAGE value="Начинаем программировать fix eslint bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начинаем программировать fix eslint bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

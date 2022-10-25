@@ -133,12 +133,8 @@ export function PropertyPageNotLogged(): JSX.Element {
                     <div className="property__avatar-wrapper property__avatar-wrapper--pro user__avatar-wrapper">
                       <img className="property__avatar user__avatar" src="img/avatar-angelina.jpg" width="74" height="74" alt="Host avatar"/>
                     </div>
-                    <span className="property__user-name">
-                    Angelina
-                  </span>
-                    <span className="property__user-status">
-                    Pro
-                  </span>
+                    <span className="property__user-name">Angelina</span>
+                    <span className="property__user-status">Pro</span>
                   </div>
                   <div className="property__description">
                     <p className="property__text">
@@ -160,9 +156,7 @@ export function PropertyPageNotLogged(): JSX.Element {
                         <div className="reviews__avatar-wrapper user__avatar-wrapper">
                           <img className="reviews__avatar user__avatar" src="img/avatar-max.jpg" width="54" height="54" alt="Reviews avatar"/>
                         </div>
-                        <span className="reviews__user-name">
-                        Max
-                      </span>
+                        <span className="reviews__user-name">Max</span>
                       </div>
                       <div className="reviews__info">
                         <div className="reviews__rating rating">
