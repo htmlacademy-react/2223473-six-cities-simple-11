@@ -1,119 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Вооружён,  значит опасен">
-      <change beforePath="$PROJECT_DIR$/markup/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/fonts/rubik-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/amsterdam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/amsterdam@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/apartment-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/apartment-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/apartment-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/apartment-small-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/apartment-small-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/avatar-angelina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/avatar-max.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/avatar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/ico-adults.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/ico-bedrooms.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/ico-no-results.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/ico-place.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/icon-arrow-select.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/icon-star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/map-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/map-big@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/map@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/no-places.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/no-places@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/pin-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/room-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/room.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/star-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/star-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/stars-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/stars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/studio-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/studio-photos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/img/triangle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/main-empty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/property-not-logged.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/markup/property.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/fonts/rubik-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/amsterdam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/amsterdam@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/apartment-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/apartment-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/apartment-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/apartment-small-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/apartment-small-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/avatar-angelina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/avatar-max.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/avatar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/ico-adults.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/ico-bedrooms.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/ico-no-results.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/ico-place.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/icon-arrow-select.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/icon-star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/map-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/map-big@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/map@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/no-places.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/no-places@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/pin-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/room-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/room.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/star-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/star-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/stars-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/stars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/studio-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/studio-photos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/img/triangle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/main-empty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/property-not-logged.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/property.html" beforeDir="false" />
+    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Начинаем программировать">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,13 +77,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\React-Lesons\HTMLAcademy\Project\2223473-six-cities-simple-11\project\src" />
       <recent name="C:\React-Lesons\HTMLAcademy\Project\2223473-six-cities-simple-11\project" />
       <recent name="C:\React-Lesons\HTMLAcademy\Project\6Cities\project\2223473-six-cities-simple-11\project\public" />
     </key>
@@ -237,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666244642782</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Начинаем программировать">
+      <created>1666688470580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666688470580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +169,7 @@
     <MESSAGE value="Добавил наставника" />
     <MESSAGE value="Вооружён, значит опасен" />
     <MESSAGE value="Вооружён,  значит опасен" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вооружён,  значит опасен" />
+    <MESSAGE value="Начинаем программировать" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начинаем программировать" />
   </component>
 </project>
