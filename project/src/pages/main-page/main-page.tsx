@@ -1,4 +1,3 @@
-import React from 'react';
 import { ApartmentCard } from '../../components/cards/cards';
 import { Header } from '../../components/header/header';
 
