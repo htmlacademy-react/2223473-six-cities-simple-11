@@ -4,11 +4,6 @@ import React from 'react';
 export function MainEmpty(): JSX.Element {
   return (
     <div>
-      <meta charSet="utf-8"/>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>six cities simple</title>
-      <link rel="stylesheet" href="css/main.css"/>
       <div className="page page--gray page--main">
         <div style={{display: 'none'}}>
           <svg xmlns="http://www.w3.org/2000/svg">
