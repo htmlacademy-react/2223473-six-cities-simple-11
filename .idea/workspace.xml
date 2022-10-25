@@ -114,7 +114,6 @@
       <change beforePath="$PROJECT_DIR$/project/public/main.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/public/property-not-logged.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/public/property.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/components/app/app.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,12 +142,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="module1-task2" />
-                    <option name="lastUsedInstant" value="1666245518" />
+                    <option name="branchName" value="module2-task1" />
+                    <option name="lastUsedInstant" value="1666688242" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="module1-task1" />
-                    <option name="lastUsedInstant" value="1666245491" />
+                    <option name="lastUsedInstant" value="1666688207" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="module1-task2" />
+                    <option name="lastUsedInstant" value="1666688090" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -183,13 +186,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\React-Lesons\HTMLAcademy\Project\2223473-six-cities-simple-11\project" />
       <recent name="C:\React-Lesons\HTMLAcademy\Project\6Cities\project\2223473-six-cities-simple-11\project\public" />
     </key>
   </component>
