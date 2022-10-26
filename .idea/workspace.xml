@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Начинаем программировать fix eslint bug 2">
+    <list default="true" id="49e93c6d-cb0a-45af-a3d3-ce6c885c642c" name="Changes" comment="Начинаем программировать fix eslint bug 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-empty.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/property-page/property-page-not-logged.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/pages/main-page/main-page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,8 @@
       <workItem from="1666692407794" duration="745000" />
       <workItem from="1666694524905" duration="1738000" />
       <workItem from="1666697893500" duration="31000" />
-      <workItem from="1666697955221" duration="1703000" />
+      <workItem from="1666697955221" duration="2398000" />
+      <workItem from="1666701608975" duration="5436000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил наставника">
       <created>1666074213283</created>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666699188252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Начинаем программировать fix eslint bug 3">
+      <created>1666699725923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666699725923</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +219,8 @@
     <MESSAGE value="Начинаем программировать fix main-empty &amp; property-page" />
     <MESSAGE value="Начинаем программировать fix eslint bug" />
     <MESSAGE value="Начинаем программировать fix eslint bug 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начинаем программировать fix eslint bug 2" />
+    <MESSAGE value="Начинаем программировать fix eslint bug 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начинаем программировать fix eslint bug 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

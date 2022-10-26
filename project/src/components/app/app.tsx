@@ -1,7 +1,9 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import {MainPage} from '../../pages/main-page/main-page';
-import {LoginPage} from '../../pages/login-page/login-page';
-import {PropertyPage} from '../../pages/property-page/property-page';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { MainPage } from '../../pages/main-page/main-page';
+import { LoginPage } from '../../pages/login-page/login-page';
+import { PropertyPage } from '../../pages/property-page/property-page';
+import { Header } from '../../components/header/header';
+
 
 type ApartmentCardType = {
   apartmentData:{
@@ -19,7 +21,7 @@ function App({apartmentData}: ApartmentCardType): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
-        <Route>
+        <Route path='/' element={<Header />}>
           <Route index element={<MainPage apartmentCardList = {apartmentData}/>}/>
           <Route path='/login' element={<LoginPage />}/>
           <Route path='/property' element={<PropertyPage />}/>
