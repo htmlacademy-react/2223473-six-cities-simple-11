@@ -1,9 +1,10 @@
-export type ApartmentCardType = {
+export type OfferCardType = {
+  id: string;
   mark?: string;
   url: string;
-  imgUrl: string;
+  previewImage: string;
   price: number;
-  ratingPercent: number;
+  rating: number;
   description: string;
   type: string;
 };

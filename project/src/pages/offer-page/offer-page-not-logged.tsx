@@ -1,4 +1,4 @@
-export function PropertyPageNotLogged(): JSX.Element {
+export function OfferPageNotLogged(): JSX.Element {
   return (
     <div>
       <div className="page">

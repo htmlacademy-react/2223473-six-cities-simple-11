@@ -1,20 +1,21 @@
-import { Link } from 'react-router-dom';
-import {ApartmentCard} from '../../components/cards/cards';
+import {Link} from 'react-router-dom';
+import {OfferCards} from '../../components/offer-cards/offer-cards';
 
-type ApartmentCardType = {
-  apartmentCardList: {
+
+type OfferCardType = {
+  offerCardList: {
+    id: string;
     mark?: string;
     url: string;
-    imgUrl: string;
+    previewImage: string;
     price: number;
-    ratingPercent: number;
+    rating: number;
     description: string;
     type: string;
   }[];
 };
 
-export function MainPage({apartmentCardList}: ApartmentCardType): JSX.Element {
-  const apartmentCard = apartmentCardList.map((apartmentData, i) => <ApartmentCard {...apartmentData} key={apartmentData.url}/>);
+export function MainPage({offerCardList}: OfferCardType): JSX.Element {
   return (
     <main className="page__main page__main--index">
       <h1 className="visually-hidden">Cities</h1>
@@ -22,9 +23,7 @@ export function MainPage({apartmentCardList}: ApartmentCardType): JSX.Element {
         <section className="locations container">
           <ul className="locations__list tabs__list">
             <li className="locations__item">
-              <a className="locations__item-link tabs__item" href="{#}">
-                <span>Paris</span>
-              </a>
+              <Link className="locations__item-link tabs__item" to='/' title='/Paris'><span>Paris</span></Link>
             </li>
             <li className="locations__item">
               <Link className="locations__item-link tabs__item" to='/' title='/Cologne'><span>Cologne</span></Link>
@@ -60,7 +59,7 @@ export function MainPage({apartmentCardList}: ApartmentCardType): JSX.Element {
               </ul>
             </form>
             <div className="cities__places-list places__list tabs__content">
-              {apartmentCard}
+              {offerCardList.map((offerData, i) => <OfferCards {...offerData} key={offerData.id}/>)}
             </div>
           </section>
           <div className="cities__right-section">
