@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function PropertyPage(): JSX.Element {
+export function OfferPage(): JSX.Element {
   return (
-    <main className="page__main page__main--property">
+    <>
       <section className="property">
         <div className="property__gallery-container container">
           <div className="property__gallery">
@@ -272,6 +272,6 @@ export function PropertyPage(): JSX.Element {
           </div>
         </section>
       </div>
-    </main>
+    </>
   );
 }
