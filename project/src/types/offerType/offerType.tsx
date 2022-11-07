@@ -1,10 +1,10 @@
 export type Reviews = {
-  avatar: string,
-  name: string,
-  rating: number,
-  text: string,
-  dateTime: string
-}
+  avatar: string;
+  name: string;
+  rating: number;
+  text: string;
+  dateTime: string;
+};
 
 export type Host = {
   avatar:string;
@@ -13,13 +13,13 @@ export type Host = {
 };
 
 export type Location = {
-  city: string,
+  city: string;
   location: {
-    longitude:number,
-    latitude:number,
-    zoom:number
-  }
-}
+    longitude:number;
+    latitude:number;
+    zoom:number;
+  };
+};
 
 export type OfferParameterType = {
   key: string;
