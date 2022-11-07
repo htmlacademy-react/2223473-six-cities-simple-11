@@ -1,21 +1,13 @@
-import {Link} from 'react-router-dom';
-import {OfferCards} from '../../components/offer-cards/offer-cards';
+import { Link } from 'react-router-dom';
+import { OfferCards } from '../../components/offer-cards/offer-cards';
+import { OfferParameterType } from '../../types/offerType/offerType';
 
+type MainProps = {
+  offerParameters: OfferParameterType[];
+}
 
-type OfferCardType = {
-  offerCardList: {
-    id: string;
-    mark?: string;
-    url: string;
-    previewImage: string;
-    price: number;
-    rating: number;
-    description: string;
-    type: string;
-  }[];
-};
+export function MainPage({offerParameters}: MainProps): JSX.Element {
 
-export function MainPage({offerCardList}: OfferCardType): JSX.Element {
   return (
     <main className="page__main page__main--index">
       <h1 className="visually-hidden">Cities</h1>
@@ -59,7 +51,7 @@ export function MainPage({offerCardList}: OfferCardType): JSX.Element {
               </ul>
             </form>
             <div className="cities__places-list places__list tabs__content">
-              {offerCardList.map((offerData, i) => <OfferCards {...offerData} key={offerData.id}/>)}
+              {offerParameters.map((offerData) => <OfferCards key={offerData.key} offerParameter={offerData} />)}
             </div>
           </section>
           <div className="cities__right-section">
