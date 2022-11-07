@@ -1,10 +1,41 @@
-export type OfferCardType = {
-  id: string;
-  mark?: string;
-  url: string;
-  previewImage: string;
-  price: number;
+export type Reviews = {
+  avatar: string;
+  name: string;
   rating: number;
-  description: string;
-  type: string;
+  text: string;
+  dateTime: string;
+};
+
+export type Host = {
+  avatar:string;
+  name:string;
+  status:string;
+};
+
+export type Location = {
+  city: string;
+  location: {
+    longitude:number;
+    latitude:number;
+    zoom:number;
+  };
+};
+
+export type OfferParameterType = {
+  key: string;
+  imgSrc:string[];
+  isPremium: boolean;
+  name: string;
+  rating:number;
+  type:string;
+  countBedrooms:number;
+  countAdults:number;
+  price:number;
+  isNight:boolean;
+  inSideList:string[];
+  hostTitle:string;
+  hostUser:Host;
+  description:string;
+  location:Location;
+  reviews:Reviews;
 };
